@@ -10,7 +10,7 @@ const Header = () => {
     <div className="w-full flex justify-between py-3 mb-3">
       <div className="flex gap-2 items-center">
         <img src={Logo} alt="Logo" />
-        <h1 className="text-3xl font-medium text-blue-900">
+        <h1 className="text-3xl font-medium text-blue-900 hover:cursor-pointer">
           Hygge<span className="font-extrabold">X</span>
         </h1>
       </div>
@@ -19,7 +19,7 @@ const Header = () => {
           {navItems.map((item, i) => (
             <h2
               key={i}
-              className="text-base sm:text-lg md:text-xl font-semibold text-gray-600"
+              className="text-base sm:text-lg md:text-xl font-semibold text-gray-600 cursor-pointer hover:underline hover:scale-110 duration-200 ease-in-out transition-all"
             >
               {item}
             </h2>
@@ -49,7 +49,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="px-8 py-3 rounded-3xl bg-gradient-to-b from-blue-900 via-blue-700 to-blue-500 text-white font-semibold">
+        <div className="px-8 py-3 rounded-3xl bg-gradient-to-b from-blue-900 via-blue-700 to-blue-500 text-white font-semibold cursor-pointer hover:scale-110 duration-200 ease-in-out transition-all">
           Login
         </div>
       </div>
