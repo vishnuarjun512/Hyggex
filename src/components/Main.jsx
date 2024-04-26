@@ -51,7 +51,7 @@ const Main = () => {
               />
               <FaAngleLeft
                 size={40}
-                className="p-1 bg-gradient-to-bl from-blue-950 via-blue-600 to-blue-400 text-white rounded-full cursor-pointer hover:scale-110 duration-200 ease-in-out transition-all"
+                className="p-1 bg-gradient-to-bl from-blue-950 via-blue-600 to-blue-400 text-white whitespace-nowrap rounded-full cursor-pointer hover:scale-110 duration-200 ease-in-out transition-all"
               />
               <h1 className="text-3xl font-semibold ">{"1 / 10"}</h1>
               <FaAngleRight

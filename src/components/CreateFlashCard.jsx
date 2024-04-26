@@ -4,7 +4,7 @@ import Logo from "./Group.png";
 
 const CreateFlashCard = () => {
   return (
-    <div className="my-4 flex w-full justify-around flex-row items-center">
+    <div className="my-4 flex w-full justify-between md:justify-around flex-row items-center">
       <div className="flex gap-2 items-center flex-row">
         <div className="bg-white shadow-xl shadow-blue-200 rounded-full py-[11px] px-[6px]">
           <img src={Logo} alt="Logo" />

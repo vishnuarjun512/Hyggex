@@ -1,8 +1,33 @@
-# React + Vite
+# Hyggex Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+With ReactJS and Tailwind CSS , a frontend Webapp that demonstrates the functionality of a frontened API Student LMS web application
 
-Currently, two official plugins are available:
+This is a [FrontEnd Project](https://github.com/vishnuarjun512/Hyggex) project bootstrapped with [`NodeJS`] hosted on RENDER [here](https://hyggex-ruby.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Clone
+
+Clone the Project in your desired folder:
+
+```bash
+git clone https://github.com/vishnuarjun512/Hyggex
+```
+
+## Installation
+
+Firstly, install required Dependencies and Packages:
+
+```bash
+# Setup Backend with a Single Command
+npm run install
+```
+
+This will install packages required for the project
+
+## Getting Started
+
+Secondly, run the development server:
+
+```bash
+# Run the Backend Server
+npm run dev
+```
