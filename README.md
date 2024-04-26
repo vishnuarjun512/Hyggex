@@ -2,7 +2,7 @@
 
 With ReactJS and Tailwind CSS , a frontend Webapp that demonstrates the functionality of a frontened API Student LMS web application
 
-This is a [FrontEnd Project](https://github.com/vishnuarjun512/Hyggex) project bootstrapped with [`NodeJS`] hosted on RENDER [here](https://hyggex-ruby.vercel.app/)
+This is a [FrontEnd Project](https://github.com/vishnuarjun512/Hyggex) project bootstrapped with [`NodeJS`] hosted on VERCEL [here](https://hyggex-ruby.vercel.app/)
 
 ## Clone
 
