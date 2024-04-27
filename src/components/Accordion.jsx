@@ -18,7 +18,7 @@ const Accordion = ({ title, description }) => {
         </span>
       </button>
       <div
-        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
+        className={`w-full grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
           accordionOpen
             ? "grid-rows-[1fr] opacity-100"
             : "grid-rows-[0fr] opacity-0"
